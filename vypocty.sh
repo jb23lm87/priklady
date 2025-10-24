@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-#
-# operácie s číslami
+# Vypočítať základné operácie s číslami v bash
 #
 A=5
 B=4
@@ -8,8 +7,7 @@ C=1.2
 D=3.5
 echo a + b=$A + $B=$((A + B))
 echo a - b=$A - $B=$((A - B))
-#desatinné počty
-echo "c / d=$C / $D=$(echo "scale=2; $C/$D" | bc)"
+# výpočet násobenia s desatinnými číslami pomocou bc
 echo "c + d=$C + $D=$(echo "scale=2; $C+$D" | bc)"
 #
 echo

@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+# Various egrep command examples on sample texts
 echo "Hello, world" | grep --colour -E  "Hello"
 echo "Hello, world" | grep --colour -E  "HELLO"
 echo "Hello, world" | grep --colour -E  "Hello, "

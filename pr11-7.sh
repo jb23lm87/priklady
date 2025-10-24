@@ -1,5 +1,5 @@
 #!/bin/bash
-#počítadlo výskytu
+# Script to count occurrences of a string in /etc/group file
 COUNTER=0
 #hľadaný reťazec
 HLADAJ=root
@@ -14,7 +14,7 @@ done
 echo -e "\n\tNapočítal som $COUNTER riadkov.\n"
 echo
 #
-#ale krajšie je to takto ...
+# Riešenie pomocou while read
 #
 COUNTER=0
 #hľadaný reťazec

@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Script to count lines containing a specific word in /etc/passwd
 SLOVO=student
 COUNTER=0
 #file read ... "IFS" (Internal Field Separator)
