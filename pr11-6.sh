@@ -1,4 +1,5 @@
 #!/bin/sh
+# Script to read user happiness and respond accordingly
 echo "Are you happy?"
 read -r ANSWER
 case "$ANSWER" in

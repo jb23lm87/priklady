@@ -1,4 +1,5 @@
 #!/bin/bash
+# Various awk command examples on osoby.txt and /etc/passwd
 awk '{print;}' osoby.txt
 awk '/joz/' osoby.txt 
 awk '/an/' osoby.txt 
@@ -20,5 +21,3 @@ awk '{suma += $4; pocet ++;} END {print "Suma:", suma, "Počet", pocet, "Priemer
 awk -F: '{print $1}' /etc/passwd | sort
 cat osoby.txt | sort -k 4
 awk '{print;}' osoby.txt | sort -k 4
-
-
