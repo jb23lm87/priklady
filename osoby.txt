@@ -1,0 +1,5 @@
+1	jozef	m	18
+2	peter	m	22
+3	ivan	m	51
+4	anna	z	39
+5	jana	z	23
